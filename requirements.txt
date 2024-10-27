@@ -1,0 +1,80 @@
+!pip install pydub
+!pip install resampy
+!pip install keras-tuner --upgrade
+!pip install dtw
+!pip install audiomentations
+import os
+import numpy as np
+import soundfile as sf
+from audiomentations import Compose, TimeStretch, PitchShift
+from tqdm import tqdm
+import soundfile as sf
+import os
+import tensorflow as tf
+from tensorflow.keras import layers
+import tensorflow as tf
+from tensorflow.keras import layers
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten, Dropout
+import json
+import os
+import math
+import dtw
+import os
+import librosa
+import cv2
+import shutil
+import random
+import os
+import soundfile as sf
+import resampy
+import librosa.display
+import keras_tuner
+import soundfile as sf
+import IPython.display as ipd
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+import scipy
+from scipy import misc
+import glob
+from PIL import Image
+import os
+from sklearn.cluster import KMeans
+from keras import layers
+from keras.layers import (Input, Add, Dense, Activation, ZeroPadding2D, BatchNormalization, Flatten, 
+                          Conv2D, AveragePooling2D, MaxPooling2D, GlobalMaxPooling2D)
+from keras.models import Model, load_model
+from keras.preprocessing import image
+from keras.utils import layer_utils
+import pydot
+from IPython.display import SVG
+from keras.utils.vis_utils import model_to_dot
+from keras.utils import plot_model
+from keras.optimizers import Adam
+from keras.initializers import glorot_uniform
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from pydub import AudioSegment
+import shutil
+from keras.preprocessing.image import ImageDataGenerator
+import random
+from tqdm import tqdm
+from pydub import AudioSegment
+from keras.utils import to_categorical
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from keras.layers import Dense, Flatten
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from sklearn.model_selection import train_test_split
+from keras.models import Sequential
+from keras.layers import Dense, Dropout
+from keras.optimizers import Adam
+from keras.utils import np_utils
+from tensorflow import keras  
+import os
+import math
+import json
+import librosa
+import numpy as np
+from tqdm import tqdm  
